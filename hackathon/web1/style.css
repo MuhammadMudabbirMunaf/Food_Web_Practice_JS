@@ -1,0 +1,402 @@
+body{
+    background-color: rgb(76, 76, 76);
+    /* background: url(./download.jpg);
+    background-repeat: no-repeat; */
+}
+.navbar{
+    background-color: rgb(0, 2, 67);
+    margin: 0;
+    width: 100%;
+}
+.items{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: calc(10vh);
+    color: rgb(243, 243, 243);
+    font-size: 35px;
+    margin-top: 0;
+    list-style: none;
+}
+.li:hover{
+    border-bottom: 3px solid white;
+    font-size: 35px;
+    cursor: pointer;
+}
+@media screen and (max-width : 500px){
+    .items{
+        font-size: 20px;
+    }
+    li:hover{
+        border-bottom: 2px solid white;
+        font-size: 25px;
+        cursor: pointer;
+    }
+}
+
+.restName{
+    background-color: black;
+    color: white;
+    border-bottom: 5px solid white;
+    font-size: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.foodcardsmain{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card1{
+    border: 1px solid white;
+    width: calc(22vw);
+    margin: 15px;
+}
+.food1{
+    width: calc(20vw);
+    margin: 15px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+.img1{
+    background: url(./1.jpg);
+    height: calc(27vh);
+    width: calc(20vw);  
+    background-repeat: no-repeat;
+    margin: 15px;
+}
+.card2{
+    border: 1px solid white;
+    width: calc(22vw);
+    margin: 15px;
+}
+.food2{
+    width: calc(20vw);
+    margin: 15px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+.img2{
+    background: url(./1.jpg);
+    height: calc(27vh);
+    width: calc(20vw);  
+    background-repeat: no-repeat;
+    margin: 15px;
+}
+.card3{
+    border: 1px solid white;
+    width: calc(22vw);
+    margin: 15px;
+}
+.food3{
+    width: calc(20vw);
+    margin: 15px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+.img3{
+    background: url(./1.jpg);
+    height: calc(27vh);
+    width: calc(20vw);  
+    background-repeat: no-repeat;
+    margin: 15px;
+}
+.card4{
+    border: 1px solid white;
+    width: calc(22vw);
+    margin: 15px;
+}
+.food4{
+    width: calc(20vw);
+    margin: 15px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+.img4{
+    background: url(./1.jpg);
+    height: calc(27vh);
+    width: calc(20vw);  
+    background-repeat: no-repeat;
+    margin: 15px;
+}
+
+
+.foodcardsmain2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card11{
+    border: 1px solid white;
+    width: calc(22vw);
+    margin: 15px;
+}
+.food11{
+    width: calc(20vw);
+    margin: 15px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+.img11{
+    background: url(./2.jpg);
+    height: calc(27vh);
+    width: calc(20vw);  
+    background-repeat: no-repeat;
+    margin: 15px;
+}
+.card12{
+    border: 1px solid white;
+    width: calc(22vw);
+    margin: 15px;
+}
+.food12{
+    width: calc(20vw);
+    margin: 15px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+.img12{
+    background: url(./2.jpg);
+    height: calc(27vh);
+    width: calc(20vw);  
+    background-repeat: no-repeat;
+    margin: 15px;
+}
+.card13{
+    border: 1px solid white;
+    width: calc(22vw);
+    margin: 15px;
+}
+.food13{
+    width: calc(20vw);
+    margin: 15px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+.img13{
+    background: url(./2.jpg);
+    height: calc(27vh);
+    width: calc(20vw);  
+    background-repeat: no-repeat;
+    margin: 15px;
+}
+.card14{
+    border: 1px solid white;
+    width: calc(22vw);
+    margin: 15px;
+}
+.food14{
+    width: calc(20vw);
+    margin: 15px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+.img14{
+    background: url(./2.jpg);
+    height: calc(27vh);
+    width: calc(20vw);  
+    background-repeat: no-repeat;
+    margin: 15px;
+}
+
+
+.foodcardsmain3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card21{
+    border: 1px solid white;
+    width: calc(22vw);
+    margin: 15px;
+}
+.food21{
+    width: calc(20vw);
+    margin: 15px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+.img21{
+    background: url(./3.jpg);
+    height: calc(27vh);
+    width: calc(20vw);  
+    background-repeat: no-repeat;
+    margin: 15px;
+}
+.card22{
+    border: 1px solid white;
+    width: calc(22vw);
+    margin: 15px;
+}
+.food22{
+    width: calc(20vw);
+    margin: 15px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+.img22{
+    background: url(./3.jpg);
+    height: calc(27vh);
+    width: calc(20vw);  
+    background-repeat: no-repeat;
+    margin: 15px;
+}
+.card23{
+    border: 1px solid white;
+    width: calc(22vw);
+    margin: 15px;
+}
+.food23{
+    width: calc(20vw);
+    margin: 15px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+.img23{
+    background: url(./3.jpg);
+    height: calc(27vh);
+    width: calc(20vw);  
+    background-repeat: no-repeat;
+    margin: 15px;
+}
+.card24{
+    border: 1px solid white;
+    width: calc(22vw);
+    margin: 15px;
+}
+.food24{
+    width: calc(20vw);
+    margin: 15px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+.img24{
+    background: url(./3.jpg);
+    height: calc(27vh);
+    width: calc(20vw);  
+    background-repeat: no-repeat;
+    margin: 15px;
+}
+
+
+.foodcardsmain4{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card31{
+    border: 1px solid white;
+    width: calc(22vw);
+    margin: 15px;
+}
+.food31{
+    width: calc(20vw);
+    margin: 15px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+.img31{
+    background: url(./4.jpg);
+    height: calc(27vh);
+    width: calc(20vw);  
+    background-repeat: no-repeat;
+    margin: 15px;
+}
+.card32{
+    border: 1px solid white;
+    width: calc(22vw);
+    margin: 15px;
+}
+.food32{
+    width: calc(20vw);
+    margin: 15px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+.img32{
+    background: url(./4.jpg);
+    height: calc(27vh);
+    width: calc(20vw);  
+    background-repeat: no-repeat;
+    margin: 15px;
+}
+.card33{
+    border: 1px solid white;
+    width: calc(22vw);
+    margin: 15px;
+}
+.food33{
+    width: calc(20vw);
+    margin: 15px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+.img33{
+    background: url(./4.jpg);
+    height: calc(27vh);
+    width: calc(20vw);  
+    background-repeat: no-repeat;
+    margin: 15px;
+}
+.card34{
+    border: 1px solid white;
+    width: calc(22vw);
+    margin: 15px;
+}
+.food34{
+    width: calc(20vw);
+    margin: 15px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+.img34{
+    background: url(./4.jpg);
+    height: calc(27vh);
+    width: calc(20vw);  
+    background-repeat: no-repeat;
+    margin: 15px;
+}
+
+.card1:hover, .card2:hover, .card3:hover, .card4:hover, 
+.card11:hover, .card12:hover, .card13:hover, .card14:hover, 
+.card21:hover, .card22:hover, .card23:hover, .card24:hover,
+.card31:hover, .card32:hover, .card33:hover, .card34:hover{
+    box-shadow: 2px 2px 5px rgb(198, 198, 198);
+    cursor: pointer;
+}
+
+
+.footer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(0, 2, 67);
+    color: white;
+    font-size: 16px;
+}
+.footer1, .footer2, .footer3{
+    list-style: none;
+}
+.footerlinks:hover{
+    cursor: pointer;
+    border-bottom: 1px solid white;
+    font-size: 17px;
+}

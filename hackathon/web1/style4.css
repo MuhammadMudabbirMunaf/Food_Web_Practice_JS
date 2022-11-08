@@ -1,0 +1,83 @@
+body{
+    background: url(./bg.jpg);
+    /* background-repeat: no-repeat; */
+}
+.navbar{
+    background-color: rgb(0, 2, 67);
+    margin: 0;
+    width: 100%;
+}
+.items{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: calc(10vh);
+    color: rgb(243, 243, 243);
+    font-size: 35px;
+    list-style: none;
+}
+.li:hover{
+    border-bottom: 3px solid white;
+    font-size: 35px;
+    cursor: pointer;
+}
+@media screen and (max-width : 500px){
+    .items{
+        font-size: 20px;
+    }
+    li:hover{
+        border-bottom: 2px solid white;
+        font-size: 25px;
+        cursor: pointer;
+    }
+}
+
+.restName{
+    background-color: black;
+    color: white;
+    border-bottom: 5px solid white;
+    font-size: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.resBoxMain{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+.reserBox{
+    height: calc(60vh);
+    width: calc(50vw);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 5px rgb(73, 73, 73);
+}
+/* 
+input{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+} */
+
+.footer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(0, 2, 67);
+    color: white;
+    font-size: 16px;
+}
+.footer1, .footer2, .footer3{
+    list-style: none;
+}
+.footerlinks:hover{
+    cursor: pointer;
+    border-bottom: 1px solid white;
+    font-size: 17px;
+}
